@@ -54,7 +54,11 @@ function savetodos(){
     }
 
     
-    
+    function init() {
+        var todos = JSON.parse(localStorage.getItem('userinput'));
+        if (todos !== null) {
+        }
+    }
 
 
 
